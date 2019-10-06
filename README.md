@@ -1,5 +1,7 @@
 # \<tiny-stepper>
 
+> This component is a WIP. Please read the [disclaimer](#Disclaimer) for more context.
+
 Stepper component that (mostly) adheres to Material Design. Built with [lit-element](https://lit-element.polymer-project.org/) and [open-wc](https://github.com/open-wc/open-wc). Inspired by [l2t-paper-stepper](https://github.com/Link2Twenty/l2t-paper-stepper).
 
 ## Installation
@@ -20,3 +22,6 @@ npm i @kr05/tiny-stepper
   <tiny-step label="Last step" lastStep></tiny-step>
 </tiny-stepper>
 ```
+
+## Disclaimer
+This is very much a work in progress, so take precautions if you plan on using tiny-stepper in production. That being said, I depend on this component for my business needs, which means that I will continue to update and support this package for the foreseeable future. If you find that it's not working as expected or wish to see some feature added, please submit an issue and I will get right on it.
