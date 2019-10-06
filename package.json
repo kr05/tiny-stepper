@@ -2,7 +2,11 @@
   "name": "tiny-stepper",
   "version": "0.0.0",
   "description": "Webcomponent tiny-stepper following open-wc recommendations",
-  "author": "tiny-stepper",
+  "keywords": [
+    "web-component",
+    "lit-element"
+  ],
+  "author": "Kevin I Rivera",
   "license": "MIT",
   "main": "index.js",
   "module": "index.js",
