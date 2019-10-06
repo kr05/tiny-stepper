@@ -4,16 +4,21 @@ This webcomponent follows the [open-wc](https://github.com/open-wc/open-wc) reco
 
 ## Installation
 ```bash
-npm i tiny-stepper
+npm i @kr05/tiny-stepper
 ```
 
 ## Usage
 ```html
 <script type="module">
   import 'tiny-stepper/tiny-stepper.js';
+  import 'tiny-stepper/tiny-step.js';
 </script>
 
-<tiny-stepper></tiny-stepper>
+<tiny-stepper>
+  <tiny-step label="First step" subtitle="Edit me!" editable></tiny-step>
+  <tiny-step label="Second step" subtitle="Please don't skip me." optional></tiny-step>
+  <tiny-step label="Last step" lastStep></tiny-step>
+</tiny-stepper>
 ```
 
 ## Testing using karma (if applied by author)

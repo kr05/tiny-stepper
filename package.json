@@ -6,6 +6,7 @@
   "license": "MIT",
   "main": "index.js",
   "module": "index.js",
+  "scope": "@kr05",
   "scripts": {
     "start": "es-dev-server --app-index demo/index.html --node-resolve --open --watch",
     "start:compatibility": "es-dev-server --app-index demo/index.html --compatibility all --node-resolve --open --watch",
