@@ -1,6 +1,6 @@
 # \<tiny-stepper>
 
-This webcomponent follows the [open-wc](https://github.com/open-wc/open-wc) recommendation.
+Stepper component that (mostly) adheres to Material Design. Built with [lit-element](https://lit-element.polymer-project.org/) and [open-wc](https://github.com/open-wc/open-wc). Inspired by [l2t-paper-stepper](https://github.com/Link2Twenty/l2t-paper-stepper).
 
 ## Installation
 ```bash
@@ -19,24 +19,4 @@ npm i @kr05/tiny-stepper
   <tiny-step label="Second step" subtitle="Please don't skip me." optional></tiny-step>
   <tiny-step label="Last step" lastStep></tiny-step>
 </tiny-stepper>
-```
-
-## Testing using karma (if applied by author)
-```bash
-npm run test
-```
-
-## Testing using karma via browserstack (if applied by author)
-```bash
-npm run test:bs
-```
-
-## Demoing using storybook (if applied by author)
-```bash
-npm run storybook
-```
-
-## Linting (if applied by author)
-```bash
-npm run lint
 ```
