@@ -1,16 +1,21 @@
 {
-  "name": "tiny-stepper",
+  "name": "@kr05/tiny-stepper",
   "version": "0.1.2",
-  "description": "Webcomponent tiny-stepper following open-wc recommendations",
+  "description": "Stepper component that (mostly) adheres to Material Design.",
   "keywords": [
     "web-component",
-    "lit-element"
+    "web-components ",
+    "lit-element",
+    "material"
+  ],
+  "files": [
+    "tiny-*.js",
+    "src"
   ],
   "author": "Kevin I Rivera",
   "license": "MIT",
   "main": "index.js",
   "module": "index.js",
-  "scope": "@kr05",
   "scripts": {
     "start": "es-dev-server --app-index demo/index.html --node-resolve --open --watch",
     "start:compatibility": "es-dev-server --app-index demo/index.html --compatibility all --node-resolve --open --watch",
