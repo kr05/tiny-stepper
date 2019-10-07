@@ -6,7 +6,7 @@ Stepper component that (mostly) adheres to Material Design. Built with [lit-elem
 
 ## Installation
 ```bash
-npm i tiny-stepper
+npm i @kr05/tiny-stepper
 ```
 
 ## Usage
