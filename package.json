@@ -1,6 +1,6 @@
 {
   "name": "@kr05/tiny-stepper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Stepper component that (mostly) adheres to Material Design.",
   "keywords": [
     "web-component",
